@@ -1,0 +1,12 @@
+D:\Subversion\FZ\TimeStamp\SystemTrayTest\bin\Debug\TimeStamp.exe.config
+D:\Subversion\FZ\TimeStamp\TimeStamp\bin\Debug\TimeStamp.exe.config
+D:\Subversion\FZ\TimeStamp\TimeStamp\bin\Debug\TimeStamp.exe
+D:\Subversion\FZ\TimeStamp\TimeStamp\bin\Debug\TimeStamp.pdb
+D:\Subversion\FZ\TimeStamp\TimeStamp\bin\Debug\TimeStamp.xml
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.vbprojResolveAssemblyReference.cache
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.frmMain.resources
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.Resources.resources
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.vbproj.GenerateResource.Cache
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.exe
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.xml
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.pdb

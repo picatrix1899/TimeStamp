@@ -1,0 +1,11 @@
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\bin\Debug\SystemTrayTest.exe.config
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\bin\Debug\SystemTrayTest.exe
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\bin\Debug\SystemTrayTest.pdb
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\bin\Debug\SystemTrayTest.xml
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\obj\Debug\SystemTrayTest.Form1.resources
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\obj\Debug\SystemTrayTest.Resources.resources
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\obj\Debug\SystemTrayTest.vbproj.GenerateResource.Cache
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\obj\Debug\SystemTrayTest.exe
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\obj\Debug\SystemTrayTest.xml
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\obj\Debug\SystemTrayTest.pdb
+D:\Subversion\FZ\SystemTrayTest\SystemTrayTest\bin\Debug\TimeStamp.exe.config
