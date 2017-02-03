@@ -10,3 +10,4 @@ D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.vbproj.GenerateResource
 D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.exe
 D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.xml
 D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.pdb
+D:\Subversion\FZ\TimeStamp\TimeStamp\obj\Debug\TimeStamp.Properties.resources

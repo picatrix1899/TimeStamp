@@ -21,7 +21,7 @@
 		entry.StartTime = timeHours * 60 * 60 + timeMinutes * 60 + timeSeconds
 		entry.Description = desc
 
-		lbxTimes.Items.Add(timeHours & ":" & timeMinutes & ":" & timeSeconds & " - " & entry.StartTimeText)
+		lbxTimes.Items.Add(entry)
 		entries.Add(entry)
 
 	End Sub
@@ -36,8 +36,15 @@
 	End Sub
 
 	Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+
 		If Not lbxTimes.SelectedIndex = -1 Then
+			Dim selection = lbxTimes.SelectedIndex
+
 			lbxTimes.Items.RemoveAt(lbxTimes.SelectedIndex)
+			If lbxTimes.Items.Count > selection Then
+				lbxTimes.SelectedIndex = selection
+			End If
+
 		End If
 
 	End Sub
@@ -69,5 +76,27 @@
 			mnuContext.Show()
 			mnuDesc.Focus()
 		End If
+	End Sub
+
+	Private Sub lbxTimes_MouseClick(sender As Object, e As MouseEventArgs) Handles lbxTimes.MouseClick
+		If e.Button = MouseButtons.Right Then
+			If lbxTimes.SelectedIndex > -1 Then
+
+
+
+			End If
+		End If
+	End Sub
+
+	Private Sub btnExport_Click(sender As Object, e As EventArgs) Handles btnExport.Click
+
+		Dim text As String = ""
+
+		For Each p As TimeEntry In lbxTimes.Items
+			text = text & p.ToString() & vbCrLf
+		Next
+
+		Clipboard.SetText(text)
+
 	End Sub
 End Class

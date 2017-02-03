@@ -3,7 +3,7 @@
 	Public Property TimeText() As String
 	Public Property StartTime() As Long
 	Public Property EndTime() As Long
-	Public Property Description() As String
+	Public Property Description() As String = ""
 	Public Property Duration() As Long
 
 
@@ -41,9 +41,9 @@
 			End If
 
 			If hours < 9 Then
-				outHours = "0" & hours
+				outSeconds = "0" & seconds
 			Else
-				outHours = hours
+				outSeconds = seconds
 			End If
 
 			Return outHours & ":" & outMinutes & ":" & outSeconds
@@ -53,9 +53,9 @@
 
 	Public Overrides Function ToString() As String
 		If Description = "" Then
-			Return TimeText
+			Return StartTimeText
 		Else
-			Return TimeText & " - " & Description
+			Return StartTimeText & " - " & Description
 		End If
 	End Function
 

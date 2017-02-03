@@ -34,6 +34,7 @@ Partial Class frmMain
 		Me.tbxDesc = New System.Windows.Forms.TextBox()
 		Me.GroupBox1 = New System.Windows.Forms.GroupBox()
 		Me.Label1 = New System.Windows.Forms.Label()
+		Me.btnExport = New System.Windows.Forms.Button()
 		Me.mnuContext.SuspendLayout()
 		Me.GroupBox1.SuspendLayout()
 		Me.SuspendLayout()
@@ -94,7 +95,7 @@ Partial Class frmMain
 		'tbxDesc
 		'
 		Me.tbxDesc.Location = New System.Drawing.Point(12, 12)
-		Me.tbxDesc.MaxLength = 40
+		Me.tbxDesc.MaxLength = 0
 		Me.tbxDesc.Name = "tbxDesc"
 		Me.tbxDesc.Size = New System.Drawing.Size(251, 20)
 		Me.tbxDesc.TabIndex = 6
@@ -102,9 +103,9 @@ Partial Class frmMain
 		'GroupBox1
 		'
 		Me.GroupBox1.Controls.Add(Me.Label1)
-		Me.GroupBox1.Location = New System.Drawing.Point(376, 12)
+		Me.GroupBox1.Location = New System.Drawing.Point(376, 38)
 		Me.GroupBox1.Name = "GroupBox1"
-		Me.GroupBox1.Size = New System.Drawing.Size(254, 284)
+		Me.GroupBox1.Size = New System.Drawing.Size(254, 283)
 		Me.GroupBox1.TabIndex = 7
 		Me.GroupBox1.TabStop = False
 		Me.GroupBox1.Text = "Stats"
@@ -117,11 +118,21 @@ Partial Class frmMain
 		Me.Label1.Size = New System.Drawing.Size(0, 13)
 		Me.Label1.TabIndex = 0
 		'
+		'btnExport
+		'
+		Me.btnExport.Location = New System.Drawing.Point(555, 12)
+		Me.btnExport.Name = "btnExport"
+		Me.btnExport.Size = New System.Drawing.Size(75, 23)
+		Me.btnExport.TabIndex = 8
+		Me.btnExport.Text = "Export"
+		Me.btnExport.UseVisualStyleBackColor = True
+		'
 		'frmMain
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(642, 366)
+		Me.Controls.Add(Me.btnExport)
 		Me.Controls.Add(Me.GroupBox1)
 		Me.Controls.Add(Me.tbxDesc)
 		Me.Controls.Add(Me.btnRemove)
@@ -152,4 +163,5 @@ Partial Class frmMain
 	Friend WithEvents tbxDesc As TextBox
 	Friend WithEvents GroupBox1 As GroupBox
 	Friend WithEvents Label1 As Label
+	Friend WithEvents btnExport As Button
 End Class
