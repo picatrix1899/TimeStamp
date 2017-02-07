@@ -22,11 +22,9 @@
 		Get
 			Dim hours As Integer = StartTime / 60 / 60
 			Dim minutes As Integer = StartTime / 60 - hours * 60
-			Dim seconds As Integer = StartTime - minutes * 60 - hours * 60 * 60
 
 			Dim outHours As String
 			Dim outMinutes As String
-			Dim outSeconds As String
 
 			If hours < 9 Then
 				outHours = "0" & hours
@@ -40,13 +38,7 @@
 				outMinutes = minutes
 			End If
 
-			If hours < 9 Then
-				outSeconds = "0" & seconds
-			Else
-				outSeconds = seconds
-			End If
-
-			Return outHours & ":" & outMinutes & ":" & outSeconds
+			Return outHours & ":" & outMinutes
 
 		End Get
 	End Property
