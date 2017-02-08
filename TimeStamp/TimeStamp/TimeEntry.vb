@@ -1,7 +1,7 @@
 ﻿Public Class TimeEntry
 
 	Public Property TimeText() As String
-	Public Property StartTime() As Long
+	Public Property StartTime() As Date
 	Public Property EndTime() As Long
 	Public Property Description() As String = ""
 	Public Property Duration() As Long
@@ -20,25 +20,8 @@
 
 	Public ReadOnly Property StartTimeText() As String
 		Get
-			Dim hours As Integer = StartTime / 60 / 60
-			Dim minutes As Integer = StartTime / 60 - hours * 60
 
-			Dim outHours As String
-			Dim outMinutes As String
-
-			If hours < 9 Then
-				outHours = "0" & hours
-			Else
-				outHours = hours
-			End If
-
-			If minutes < 9 Then
-				outMinutes = "0" & minutes
-			Else
-				outMinutes = minutes
-			End If
-
-			Return outHours & ":" & outMinutes
+			Return StartTime.ToString("HH") & ":" & StartTime.ToString("mm")
 
 		End Get
 	End Property

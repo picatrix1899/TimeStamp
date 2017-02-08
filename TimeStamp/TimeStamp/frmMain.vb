@@ -13,11 +13,9 @@
 
 	Private Sub Add(ByVal desc As String)
 
-		Dim timeHours As String = System.DateTime.Now().ToString("HH")
-		Dim timeMinutes As String = System.DateTime.Now().ToString("mm")
 		Dim entry As New TimeEntry
 
-		entry.StartTime = timeHours * 60 * 60 + timeMinutes * 60
+		entry.StartTime = Now()
 		entry.Description = desc
 
 		lbxTimes.Items.Add(entry)
